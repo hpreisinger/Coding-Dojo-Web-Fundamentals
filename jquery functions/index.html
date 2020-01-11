@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>My jQuery basic assignment!</title>
+      <meta name="description" content="Just look at all this jQuery! :D"> 
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   </head>
+   <body>
+       <div class="box" id="hide">
+           <h1>Hide</h1>
+           <button>Click me!</button>
+           <p>Click the button to hide this shy cat.</p>
+           <img src="images/shycat.jpg">
+        </div>
+
+        <div class="box" id="show">
+            <h1>Show</h1>
+            <button>Click me!</button>
+            <p>Click the button to reveal something very secret.</p>
+            <img src="images/secretcat.jpg">
+        </div>
+
+        <div class="box" id="toggle">
+            <h1>Toggle</h1>
+            <button>Click me!</button>
+            <p>Click the button to show and hide this box cat.</p>
+            <img src="images/boxcat.jpg">
+        </div>
+
+        <div class="box" id="slidedown">
+            <h1>slideDown</h1>
+            <button>Click me!</button>
+            <p>Click the button to watch a smooth cat make a smooth entrance.</p>
+            <img src="images/smoothcat.jpg">
+        </div>
+
+        <div class="box" id="slideup">
+            <h1>slideUp</h1>
+            <button>Click me!</button>
+            <p>Click the button to watch this less smooth cat make a sudden exit.</p>
+            <img src="images/lesssmoothcat.jpg">
+        </div>
+
+        <div class="box" id="slidetoggle">
+            <h1>slideToggle</h1>
+            <button>Click me!</button>
+            <p>Click the button to watch this skateboard cat slide in and out of view.</p>
+            <img src="images/slidecat.jpg">
+        </div>
+
+        <div class="box" id="fadein">
+            <h1>fadeIn</h1>
+            <button>Click me!</button>
+            <p>Click the button to reveal a spooky ghost cat.</p>
+            <img src="images/spookycat.jpg">
+        </div>
+
+        <div class="box" id="fadeout">
+            <h1>fadeOut</h1>
+            <button>Click me!</button>
+            <p>Click the button to help this sneaky cat vanish completely.</p>
+            <img src="images/sneakycat.jpg">
+        </div>
+
+        <div class="box" id="addclass">
+            <h1>addClass</h1>
+            <button>Click me!</button>
+            <p>Click the button to better emphasize the following word:</p>
+            <h2>CATS</h2>
+        </div>
+
+        <div class="box" id="before">
+            <h1>Before</h1>
+            <button>Click me!</button>
+            <p>Click the button to give each of these sweet kits their appropriate ornamentation.</p>
+            <img src="images/cutekit1.jpg">
+            <img src="images/cutekit2.jpg">
+            <img src="images/cutekit3.jpg">
+        </div>
+
+        <div class="box" id="after">
+            <h1>After</h1>
+            <button>Click me!</button>
+            <p>Click the button to give these evil kits their favorite treat.</p>
+            <img src="images/evilkit1.jpg">
+            <img src="images/evilkit2.jpg">
+            <img src="images/evilkit3.jpg">
+        </div>
+
+        <div class="box" id="append">
+            <h1>Append</h1>
+            <button>Click me!</button>
+            <p>Click the button to complete the sentence.</p>
+            <h2>The true rulers of humankind are </h2>
+        </div>
+
+        <div class="box" id="html">
+            <h1>HTML</h1>
+            <button>Click me!</button>
+            <p>Click the button to turn these words into something better.</p>
+        </div>
+
+        <div class="box" id="attr">
+            <h1>Attr</h1>
+            <button>Click me!</button>
+            <p>Click the button to find out what I called <em id="you-must-be-kitten-me">this "em" tag.</em></p>
+            <h2>It's called: </h2>
+        </div>
+
+        <div class="box" id="val">
+            <h1>Val</h1>
+            <button>Click me!</button>
+            <p>Click the button to translate this cat-speak.</p>
+            <input type="text" value="mAOW">
+
+        </div>
+
+        <div class="box" id="text">
+            <h1>Text</h1>
+            <button>Click me!</button>
+            <p>Click the button to turn these words into glorious cat ipsum.</p>
+        </div>
+
+        <script>
+            $("#hide button").click(function() {
+                $("#hide img").hide();
+            });
+
+            $("#show button").click(function() {
+                $("#show img").show();
+            });
+
+            $("#toggle button").click(function() {
+                $("#toggle img").toggle();
+            });
+
+            $("#slidedown button").click(function() {
+                $("#slidedown img").slideDown("slow");
+            });
+
+            $("#slideup button").click(function() {
+                $("#slideup img").slideUp("fast");
+            });
+
+            $("#slidetoggle button").click(function() {
+                $("#slidetoggle img").slideToggle("slow");
+            });
+
+            $("#fadein button").click(function() {
+                $("#fadein img").fadeIn();
+            });
+
+            $("#fadeout button").click(function() {
+                $("#fadeout img").fadeOut();
+            });
+
+            $("#hide button").click(function() {
+                $("#hide p").hide();
+            });
+
+            $("#addclass button").click(function() {
+                $("#addclass h2").addClass("extreme");
+            });
+
+            $("#before button").click(function() {
+                $("#before img").before("<img src='images/halo.png'>");
+            });
+
+            $("#after button").click(function() {
+                $("#after img").after("<img src='images/heart.jpg'>");
+            });
+
+            $("#append button").click(function() {
+                $("#append h2").append("exactly who you think.");
+            });
+
+            $("#html button").click(function() {
+                $("#html p").html("<img src='images/manykits.jpg'>");
+            });
+
+            $("#attr button").click(function() {
+                $("#attr h2").append($("em").attr("id"));
+            });
+        
+            $("#val button").click(function() {
+                var text = "Bow before me, peasant!"
+                $("#val input").val(text);
+            });
+
+            $("#text button").click(function() {
+                $("#text p").text("Cereal boxes make for five star accommodation relentlessly pursues moth soft kitty warm kitty little ball of furr kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff if it fits, i sits. Give attitude eat the fat cats food. Mesmerizing birds all of a sudden cat goes crazy scratch my tummy actually i hate you now fight me scratch the box while happily ignoring when being called. It's 3am, time to create some chaos stretch.");
+            });
+
+        </script>
+
+
+    </body>
+</html>

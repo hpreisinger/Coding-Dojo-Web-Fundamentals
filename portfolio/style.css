@@ -1,0 +1,169 @@
+* {
+	border: 0 none;
+	padding: 0;
+   margin: 0;
+/*    outline-style: solid; */
+   }
+
+   a{
+      color: inherit;
+   }
+
+   p{
+      padding: 5px;
+   }
+
+   h3{
+      display: block;
+      padding: 10px;
+      background-image: linear-gradient(#b4b4b7,#898795,#b4b4b7);
+      color: azure;
+   }
+
+   button{
+      display: block;
+      background-color: #407d61;
+      border: 1px solid black;
+      color: white;
+      padding: 7px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bolder;
+      border-radius: 12px;
+      box-shadow: 3px 3px 5px 2px gray;
+      margin: 0px auto;
+   }
+
+   .container{
+      min-height: 1100px;
+      width: 970px;
+      background-image: linear-gradient(#1e0e12,#7b636f,#1e0e12);
+   }
+   
+   .header{
+      min-height: 65px;
+      background-color: #f7f7f7;
+      font-weight: bolder;
+   }
+   
+   #logo{
+      display: inline-block;
+      font-family: 'Comic Sans MS', sans-serif;
+      color: black;
+      font-size: 15px;
+      padding: 10px;
+   }
+
+   #tagline{
+      display: inline-block;
+      margin-left: 340px;
+      font-family: Arial, Helvetica, sans-serif;   
+   }
+   
+   .portrait{
+      display: inline-block;
+      vertical-align: top;
+   }
+
+   .portrait img{
+      height: 240px;
+      border: 5px solid lightgray;
+      margin: 20px 30px 0px 30px;
+   }
+   
+   .about{
+      display: inline-block;
+      min-height: 250px;
+      width: 490px;
+      margin: 20px 30px 0px 10px;
+      font-family: Arial, Helvetica, sans-serif;  
+      vertical-align: top;
+      background-image: linear-gradient(90deg, #fffeff, #daccd9);
+   }
+
+   .about h2{
+      display: block;
+      padding: 10px;
+      background-image: linear-gradient(#b4b4b7,#898795,#b4b4b7);
+      color: azure;
+      margin-bottom: 5px;
+   }
+
+   .about p{
+      padding: 5px 10px 5px 10px;
+   }
+
+   .projects{
+      min-height: 700px;
+      font-family: Arial, Helvetica, sans-serif; 
+   }
+
+   .box{
+      display: inline-block;
+      min-height: 645px;
+      width: 280px;
+      margin: 30px;
+      vertical-align: top;
+      background-image: linear-gradient(90deg, #fffeff, #daccd9);
+   }
+
+   .box h2{
+      display: block;
+      padding: 10px;
+      background-image: linear-gradient(#b4b4b7,#898795,#b4b4b7);
+      color: azure;
+   }
+
+   .box p{
+      height: 200px;
+      padding: 10px;
+   }
+
+   .technologies{
+      padding: 5px;
+   }
+   
+   .techimg{
+      width: 40px;
+      margin: 5px;
+      margin-bottom: 5px;
+   }
+
+   #left{
+      margin-right: 15px;
+   }
+
+   #middle{
+      margin-right: 15px;
+      margin-left: 15px;
+   }
+
+   #right{
+      margin-left: 15px;
+   }
+
+   .mainimg{
+      width: 280px;
+   }
+
+   .footer{
+      min-height: 65px;
+      background-color: #f7f7f7;
+      font-family: Arial, Helvetica, sans-serif; 
+      margin: 5px auto;
+      padding: 5px;
+   }
+
+   .footer img{
+      height: 20px;
+      vertical-align: middle;
+   }
+
+   .footer p{
+      text-align: center;
+   }
+
+   .footer a{
+      font-style: oblique;
+   }

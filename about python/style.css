@@ -1,0 +1,219 @@
+* {
+	border: 0 none;
+	padding: 0;
+    margin: 0;
+    /* outline-style: solid; */
+    }
+
+    .container{
+        height: 970px;
+        width: 970px;
+        padding: 5px 0px 5px 0px;
+        background-color: #265175;
+        font-family: sans-serif;
+        color: white;
+    }
+
+   #textsize{
+        display: block;
+        padding-right: 65px;
+        text-align: right;
+        font-size: 13pt;
+    }
+
+   #textsize a{
+       color: gold;
+    }
+
+   #dark{
+       color: black;
+    }
+
+    .header{
+       display: block;
+       width: 970px;
+    }
+
+    .header img{
+        height: 100px;
+    }
+
+    #search{
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 10px;
+       margin-left: 190px;
+       box-shadow: 3px 4px 2px black;
+       border-radius: 25px;
+       padding: 15px 30px 15px 50px;
+       background-color: #444444;
+    }
+
+    #search input{
+        box-shadow: 1px 1px 2px black;
+        border: 2px inset lightgray;
+        padding: 13px 45px 13px 45px;
+        text-align: center;
+        color: darkgrey;
+    }
+
+    #search button{
+        margin: 5px;
+        box-shadow: 1px 1px 2px black;
+        border: 2px outset lightgray;
+        border-radius: 5px;
+        padding: 10px 15px 10px 15px;
+        background-color: #265175;
+        color: white;
+    }
+
+    .topnav{
+        margin: 15px 30px 5px 30px;
+        box-shadow: 3px 3px 3px black;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #4b80ab;
+    }
+
+    .topnav ul{
+        margin: 0px 30px 0px 30px;
+    }
+
+    .topnav ul li{
+        display: inline-block;
+        padding: 5px 15px 5px 15px;
+        font-size: 25px;
+    }
+
+    .topnav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .primary{
+        display: inline-block;
+        width: 970px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .sidenav{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .sidenav ul li{
+        padding: 5px;
+        color: gold;
+        list-style: none;
+    }
+
+    .sidenav ul li a{
+        color: white;
+    }
+
+    .content{
+        display: inline-block;
+        width: 650px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .content ul{
+        padding: 10px;
+    }
+
+    .content ul li{
+        padding: 5px;
+        text-align: center;
+        font-size: 25px;
+        font-style: oblique;
+        color: gold;
+        list-style: none;
+    }
+
+    #zen{
+        font-size: 20px;
+    }
+
+    .secondary{
+        display: block;
+        padding: 10px 15px 10px 50px;
+        background-color: white;
+    }
+
+    .subcontent{
+        display: inline-block;
+        min-height: 220px;
+        width: 400px;
+        vertical-align: top;
+        margin: 0px 30px 0px 0px;
+        border-top: 5px solid #6aa1cf;
+        padding: 5px 15px 5px 5px;
+        text-align: center;
+        color: black;
+    }
+
+    .subcontent h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .subcontent p{
+        margin: 5px 15px 5px 15px;
+    }
+
+    .subcontent p a{
+        font-size: 13px;
+        color: #6aa1cf;
+        text-decoration: none;
+    }
+
+    .subcontent ul{
+        margin-left: 60px;
+    }
+
+    .subcontent ul li{
+        width: 350px;
+        padding: 3px 0px 3px 0px;
+        list-style-position: outside;
+        text-align: center;
+        list-style-type: square;
+    }
+
+    .subcontent ul li a{
+        color: #6aa1cf;
+        text-decoration: none;
+    }
+
+    .footer{
+        display: block;
+        padding-top: 65px;
+        background-image: linear-gradient(#265276,#296ca5);
+    }
+
+    .footer ul{
+        padding: 5px 100px 15px 130px;
+    }
+    
+    .footer ul li{
+        display: inline-block;
+        padding: 0px 20px 0px 20px;
+        font-size: 15pt;
+    }
+
+    .footer ul li a{
+        color: #6aa1cf;
+        text-decoration: none;
+    }
+
+    .footer p{
+        padding-bottom: 5px;
+        text-align: center;
+        font-size: 10pt;
+        color: #6aa1cf;
+    }
